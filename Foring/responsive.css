@@ -1,0 +1,63 @@
+
+@media screen and (max-width:412px)  {
+    .Nav-container{
+        width:;
+    }
+    .mainu-item-nav h3{
+        display: none;
+    }
+    .marq-icon{
+        display: none;
+    }
+    .main-hero{
+        display: grid;
+    }
+    .body-img{
+        width: 100%;
+    }
+    .img-hero{
+        width: 400px;
+    }
+    .banner-container{
+        display: flex;
+        width: auto;
+        height: 170px;
+        
+    }
+    .box-hero{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 0;
+    }
+    .item-hero{
+        display: flex;
+        gap: 5px;
+    }
+    .card-hero{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    .footer-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(icon/rose-petals.png);
+        height: 355px;
+        color: white;
+        font-size: 15px;
+        align-items: center;
+    }
+    .main-bar{
+        display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 62px;
+    position: relative;
+    position: fixed;
+    background-color: white;
+    top: 855px;
+    width: 410px;
+}
+}
